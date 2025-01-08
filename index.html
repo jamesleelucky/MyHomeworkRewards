@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Right Triangle Canvas</title>
+<style>
+  canvas { border: 1px solid black; }
+</style>
+</head>
+<body>
+  <label for="point1X">Point 1 X:</label>
+  <input type="number" id="point1X"><br>
+  <label for="point1Y">Point 1 Y:</label>
+  <input type="number" id="point1Y"><br>
+
+  <label for="point2X">Point 2 X:</label>
+  <input type="number" id="point2X"><br>
+  <label for="point2Y">Point 2 Y:</label>
+  <input type="number" id="point2Y"><br>
+
+  <label for="point3X">Point 3 X:</label>
+  <input type="number" id="point3X"><br>
+  <label for="point3Y">Point 3 Y:</label>
+  <input type="number" id="point3Y"><br>
+
+  <button onclick="drawRightTriangle()">Draw Triangle</button>
+  <p id="error"></p>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <p id="length"></p>
+
+<script src="lengthOfLine.js"></script>
+</body>
+</html>
