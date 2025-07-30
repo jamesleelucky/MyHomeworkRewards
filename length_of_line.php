@@ -302,7 +302,7 @@
 				<br><br>
 				<?php include_once( $_SERVER['DOCUMENT_ROOT']."/lessons/footer.php");?>
 				
-			</div>	
+			</div>	 
 		</div>
 		
 	</div>
